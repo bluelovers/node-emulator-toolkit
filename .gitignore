@@ -1,0 +1,5 @@
+/test/*.cht.txt
+/test/temp/*
+!/test/temp/.gitkeep
+/.idea
+/node_modules/
