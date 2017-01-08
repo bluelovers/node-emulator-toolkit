@@ -1,11 +1,15 @@
 {
   "name": "snes9x-tool",
   "version": "1.0.0",
-  "description": "CHT Encoder/Decoder",
+  "description": "Snes9x Cheat .CHT Encoder/Decoder",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "is-fullwidth-code-point": "github:bluelovers/is-fullwidth-code-point",
+    "cli-table2": "github:bluelovers/cli-table2"
+  }
 }
