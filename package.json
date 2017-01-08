@@ -1,15 +1,28 @@
 {
-  "name": "snes9x-tool",
+  "name": "node-emulator-toolkit",
   "version": "1.0.0",
   "description": "Snes9x Cheat .CHT Encoder/Decoder",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "directories": {
+    "test": "test"
   },
-  "author": "",
-  "license": "ISC",
+  "dependencies": {
+  },
   "devDependencies": {
     "is-fullwidth-code-point": "github:bluelovers/is-fullwidth-code-point",
     "cli-table2": "github:bluelovers/cli-table2"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/node-emulator-toolkit.git"
+  },
+  "author": "bluelovers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluelovers/node-emulator-toolkit/issues"
+  },
+  "homepage": "https://github.com/bluelovers/node-emulator-toolkit#readme"
 }
